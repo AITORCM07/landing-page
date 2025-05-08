@@ -1,0 +1,109 @@
+/* Estil del menú de navegació */
+.navbar {
+    background-color: rgb(255, 0, 0); /* fons roig */
+    padding: 1rem 2rem; /* padding vertical i horitzontal */
+    display: flex;
+    justify-content: space-between; /* distribució horitzontal */
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0); /* color clar per als enllaços */
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00aced; /* color diferent en hover */
+}
+
+/* Estil del contingut principal */
+.landing-container {
+    background-color: #f5f5f5; /* fons suau */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Estil de la capçalera */
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* lletra distintiva */
+    color: #333; /* color contrastat */
+    font-size: 2.5rem;
+    margin-bottom: 1rem; /* marge inferior */
+}
+
+/* Estil del subtítol */
+.product-subtitle {
+    font-size: 1.2rem;
+    color: #888; /* gris clar */
+    margin-bottom: 2rem;
+}
+
+/* Estil de la imatge destacada */
+.hero-image {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 15px; /* cantonades arrodonides */
+    margin-bottom: 1.5rem; /* marge inferior */
+    position: relative;
+}
+
+/* Estil del text sobre la imatge */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* fons negre amb transparència */
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Estil de la descripció */
+.product-description {
+    font-size: 1rem;
+    color: #777; /* gris clar */
+    margin-bottom: 1.5rem; /* separació del botó */
+}
+
+/* Estil del botó de crida a l'acció */
+.cta-button {
+    background-color: #ff0000; /* verd vibrant */
+    color: white; /* lletra clara */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838; /* canvi de color en hover */
+}
+
+/* Estil del peu de pàgina */
+.main-footer {
+    background-color: #222; /* fons fosc */
+    color: white; /* text clar */
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.main-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+.main-footer a:hover {
+    color: #00aced; /* canvi de color en hover */
+}
